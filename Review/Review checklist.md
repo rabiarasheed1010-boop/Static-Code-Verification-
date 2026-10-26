@@ -2,7 +2,7 @@
 | Category | Result | Defect |
 |---|---|---|
 | Initialization | Issue | `sum` is uninitialized in `averageAttack()` (line 79). |
-| Pointers | OK | -|
+| Pointers | Issue | Null pointer access (line 58), dangling reference (line 75), use-after-delete (line 88), and shallow copying (line 138). |
 | Arrays | Issue | Array capacity is 5, but 6 monsters are added (lines 118–123). |
 | Loops | Issue | Incorrect loop condition Code used = instead of == |
 | Arithmetic | Issue | Incorrect unsigned damage handling (lines 57–58) and integer division in `calculateDamage()` (line 95). |
